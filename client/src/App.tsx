@@ -37,7 +37,11 @@ function App() {
         <AddWilder />
       </Container>
       <Container>
+<<<<<<< HEAD
         <h2>Wilders</h2>
+=======
+        <h2>Wildesssssssrs</h2>
+>>>>>>> b5305af2006546236fe085625b97fae3ff47bac3
         <CardRow>
           {data?.wilders.map((wilder) => (
             <Wilder key={wilder._id} {...wilder} />
