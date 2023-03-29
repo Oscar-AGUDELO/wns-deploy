@@ -17,6 +17,6 @@ if (!process.env.SERVER_PORT) {
   const server = new ApolloServer({ schema });
 
   server.listen({ port: process.env.SERVER_PORT! }).then(({ url }) => {
-    console.log(`🚀  Server ready at ${url}`);
+    console.log(`🚀  Server sready at ${url}`);
   });
 })();
